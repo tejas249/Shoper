@@ -15,9 +15,11 @@
 }
 .productdisplay-img-list img{
     height: 110px;
+    border-radius: 10px;
 }
 .productdisplay-main-img{
     height: 500px;
+    border-radius: 20px;
 }
 .productdisplay-right{
     display: flex;
@@ -85,6 +87,13 @@
 }
 .productdisplay-right-category span{
     font-weight: 600;
+}
+.item-added-message{
+    color: #379733;
+    font-style: bold;
+}
+.add-cart {
+    border-radius: 20px;
 }
 
 /* ----- media query------- */

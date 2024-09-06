@@ -3,6 +3,7 @@
     min-height: 90vh;
     background: #fce3fe;
     padding-top: 100px;
+    border-radius: 20px;
 }
 .loginsignup-container{
     width: 90%;
@@ -11,6 +12,7 @@
     margin: auto;
     padding: 30px 40px;
     box-sizing: border-box;
+    border-radius: 30px;
 }
 .loginsignup-container h1{
     margin: 15px 0px;
@@ -30,6 +32,7 @@
     color: #5c5c5c;
     font-size: 18px;
     box-sizing: border-box;
+    border-radius: 15px;
 }
 .loginsignup-container button{
     width: 100%;
@@ -41,6 +44,7 @@
     font-size: 22px;
     font-weight: 500;
     cursor: pointer;
+    border-radius: 20px;
 }
 .loginsignup-login{
     margin-top: 20px;

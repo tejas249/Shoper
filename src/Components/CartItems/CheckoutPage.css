@@ -1,0 +1,80 @@
+.checkout-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.checkout-page h1 {
+    margin-bottom: 20px;
+}
+
+.heading-div {
+    background-color: #ccc;
+    opacity: 0.1; /* Adjusted opacity to be more transparent */
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.heading {
+    color: #fbfbfb;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.payment-options,
+.address-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    margin: 10px 0;
+}
+
+.payment-options label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.address-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #fa5a5a;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold; /* Corrected font-style to font-weight */
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+}

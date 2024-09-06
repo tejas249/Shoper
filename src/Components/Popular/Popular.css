@@ -23,6 +23,7 @@
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
+    border-radius: 10px;
 }
 /* ---------- media query------------ */
 
